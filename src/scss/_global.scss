@@ -1,0 +1,160 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+img, picture, svg {
+  display: block;
+}
+
+body {
+  font-family: $font-OpenSans;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $color-dark;
+  background-color: $color-white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+// svg path {
+//   fill: inherit;
+// }
+
+// Класс для визуального скрытия элементов
+// .visually-hidden {
+//   position: absolute;
+//   width: 1px;
+//   height: 1px;
+//   margin: -1px;
+//   border: 0;
+//   padding: 0;
+//   clip: rect(0, 0, 0, 0);
+//   overflow: hidden;
+// }
+
+// .btn-submit-form {
+//   font-family: $font-Roboto;
+//   font-size: 16px;
+//   line-height: 19px;
+//   font-weight: 700;
+//   padding: 16px 22px 15px;
+//   background-color: $color-orange;
+//   color: $color-white;
+//   transition-property: outline, background-color;
+//   transition-duration: 0.3s;
+//   transition-timing-function: ease;
+//   outline-offset: -3px;
+
+//   &:hover {
+//     background-color: $color-dark-orange;
+//   }
+
+//   &:not(:hover):not(:active):focus {
+//     outline: 3px solid $color-saturated-orange;
+//   }
+
+//   &:active {
+//     background-color: $color-saturated-orange;
+//   }
+// }
+
+.container {
+  max-width: $container-max;
+  margin: 0 auto;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+}
+
+.main {
+  background-color: $color-white;
+}
+
+.balcony-box {
+  background-image: url('../img/bg_image.jpg');
+  background-position: center 343px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-header,
+.card-title {
+  font-family: $font-Museo;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+}
+
+// .hashtag {
+//   padding: 7px 15px 7px 14px;
+//   font-family: $font-Roboto;
+//   font-size: 14px;
+//   line-height: 16px;
+//   background-color: $color-dark-grey;
+//   color: $color-white;
+// }
+
+
+
+
+
+// @media (max-width: 1280px) {
+//   .container {
+//     padding-left: 31px;
+//     padding-right: 31px;
+//   }
+// }
+
+// @media (max-width: 970px) {
+//   .container {
+//     padding-left: 27px;
+//     padding-right: 27px;
+//   }
+// }
+
+// @media (max-width: 760px) {
+//   .container {
+//     padding-left: 21px;
+//     padding-right: 21px;
+//   }
+// }
+
+// @media (max-width: 576px) {
+//   .header-two {
+//     font-size: 18px;
+//     line-height: 23px;
+//   }
+// }

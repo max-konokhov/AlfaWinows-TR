@@ -1,0 +1,36 @@
+/*  ---------ШРИФТЫ--------- */
+
+@font-face {
+  font-family: 'MuseoCyrl';
+  src: local('MuseoCyrl'),
+    url('../fonts/MuseoCyrl-Bold.woff2') format('woff2'),
+    url('../fonts/MuseoCyrl-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MuseoCyrl';
+  src: local('MuseoCyrl'),
+    url('../fonts/MuseoCyrl-Black.woff2') format('woff2'),
+    url('../fonts/MuseoCyrl-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ALSRubl';
+  src: local('ALS Rubl'),
+    url('../fonts/ALSRubl.woff2') format('woff2'),
+    url('../fonts/ALSRubl.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
