@@ -1,0 +1,183 @@
+.variants {
+  padding-top: 31px;
+  padding-bottom: 70px;
+
+  &__header {
+    margin-bottom: 25px;
+  }
+
+  &__description {
+    margin-bottom: 51px;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 5px;
+  }
+
+  &__list-item {
+    display: flex;
+    grid-column: span 2;
+    min-height: 450px;
+    flex-direction: column;
+    padding: 70px 38px 64px;
+    justify-content: space-between;
+    align-items: start;
+    color: $color-white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $color-rgb-dark;
+
+    &:hover {
+      .variants__card-descr {
+        display: block;
+      }
+
+      .variants__descr-price {
+        display: none;
+      }
+
+      .variants__card-link {
+        display: block;
+      }
+    }
+
+    &--plastik {
+      background-image: url('../img/bg_plastik.jpg');
+    }
+
+    &--wood {
+      background-image: url('../img/bg_wood.jpg');
+    }
+
+    &--gypsum {
+      background-image: url('../img/bg_gypsum.jpg');
+    }
+
+    &--wallpaper {
+      min-height: 300px;
+      padding: 58px 36px 52px;
+      grid-column: span 3;
+      background-image: url('../img/bg_wallpaper.jpg');
+    }
+
+    &--laminat {
+      min-height: 300px;
+      padding: 58px 36px 52px;
+      grid-column: span 3;
+      background-image: url('../img/bg_laminat.jpg');
+    }
+
+    &--lining {
+      background-image: url('../img/bg_lining.jpg');
+    }
+
+    &--inner-fin {
+      background-image: url('../img/bg_inner-fin.jpg');
+    }
+
+    &--form {
+      padding: 24px 33px 24px 27px;
+      background-color: $color-rgb-white;
+      color: $color-dark;
+      border: 5px solid $color-orange-two;
+      justify-content: start;
+    }
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    padding: 0;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  &__form-header {
+    margin-bottom: 25px;
+    padding: 0;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  &__card-descr {
+    display: none;
+    line-height: 23px;
+  }
+
+  &__descr-price {
+    font-family: $font-Museo;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  &__bold-price {
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+  &__rubl-price {
+    font-family: $font-Rubl;
+    font-weight: 400;
+  }
+
+  &__card-link {
+    display: none;
+    padding: 14px 40px;
+    transform: translateY(38%);
+    font-size: 14px;
+    background-color: $color-orange;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+}
+
+.cons-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+
+  &__input {
+    width: 100%;
+    padding: 13px 15px;
+    font-size: 14px;
+    border: 1px solid $color-grey;
+
+    &--message {
+      resize: none;
+      margin-bottom: 12px;
+    }
+  }
+
+  &__input-box {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__button-box {
+    display: flex;
+    align-items: center;
+  }
+
+  &__descr {
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  &__btn-submit {
+    padding: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $color-white;
+    background-color: $color-orange;
+    cursor: pointer;
+  }
+}

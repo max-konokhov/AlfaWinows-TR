@@ -1,9 +1,9 @@
 .finishing {
-  margin-top: 25px;
-  margin-bottom: 40px;
+  padding-top: 25px;
+  padding-bottom: 31px;
 
   &__header {
-    margin-bottom: 60px;
+    margin-bottom: 52px;
   }
 
   &__list {
@@ -19,6 +19,7 @@
     flex-direction: column;
     padding-bottom: 40px;
     align-items: center;
+    justify-content: space-between;
     background-color: $color-white;
     transition: box-shadow $short;
   }
@@ -28,11 +29,11 @@
   }
 
   &__image {
-    margin-bottom: 40px;
+    margin-bottom: 37px;
   }
 
   &__title {
-    margin-bottom: 55px;
+    margin-bottom: 42px;
     padding-left: 0;
     padding-right: 0;
     font-size: 25px;
@@ -41,7 +42,7 @@
 
   &__link {
     display: block;
-    padding: 17px 30px;
+    padding: 14px 30px;
     font-size: 14px;
     // line-height: 55px;
     color: $color-white;

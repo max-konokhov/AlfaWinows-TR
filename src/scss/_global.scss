@@ -33,7 +33,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: $color-dark;
-  background-color: $color-white;
 }
 
 ul {
@@ -104,31 +103,18 @@ button {
   background-position: center 343px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: $color-white;
 }
 
 .section-header,
 .card-title {
   font-family: $font-Museo;
   margin: 0;
-  padding-left: 15px;
-  padding-right: 15px;
   font-size: 38px;
   font-weight: 700;
   line-height: 60px;
   text-align: center;
 }
-
-// .hashtag {
-//   padding: 7px 15px 7px 14px;
-//   font-family: $font-Roboto;
-//   font-size: 14px;
-//   line-height: 16px;
-//   background-color: $color-dark-grey;
-//   color: $color-white;
-// }
-
-
-
 
 
 // @media (max-width: 1280px) {
