@@ -45,48 +45,6 @@ button {
   cursor: pointer;
 }
 
-// svg path {
-//   fill: inherit;
-// }
-
-// Класс для визуального скрытия элементов
-// .visually-hidden {
-//   position: absolute;
-//   width: 1px;
-//   height: 1px;
-//   margin: -1px;
-//   border: 0;
-//   padding: 0;
-//   clip: rect(0, 0, 0, 0);
-//   overflow: hidden;
-// }
-
-// .btn-submit-form {
-//   font-family: $font-Roboto;
-//   font-size: 16px;
-//   line-height: 19px;
-//   font-weight: 700;
-//   padding: 16px 22px 15px;
-//   background-color: $color-orange;
-//   color: $color-white;
-//   transition-property: outline, background-color;
-//   transition-duration: 0.3s;
-//   transition-timing-function: ease;
-//   outline-offset: -3px;
-
-//   &:hover {
-//     background-color: $color-dark-orange;
-//   }
-
-//   &:not(:hover):not(:active):focus {
-//     outline: 3px solid $color-saturated-orange;
-//   }
-
-//   &:active {
-//     background-color: $color-saturated-orange;
-//   }
-// }
-
 .container {
   max-width: $container-max;
   margin: 0 auto;
@@ -117,30 +75,32 @@ button {
 }
 
 
-// @media (max-width: 1280px) {
-//   .container {
-//     padding-left: 31px;
-//     padding-right: 31px;
-//   }
+@media (max-width: 992px) {
+  .section-header,
+  .card-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-header,
+  .card-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+// @media(max-width: 600px) {
+
 // }
 
-// @media (max-width: 970px) {
-//   .container {
-//     padding-left: 27px;
-//     padding-right: 27px;
-//   }
-// }
+@media (max-width: 480px) {
+  .section-header,
+  .card-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
 
-// @media (max-width: 760px) {
-//   .container {
-//     padding-left: 21px;
-//     padding-right: 21px;
-//   }
-// }
 
-// @media (max-width: 576px) {
-//   .header-two {
-//     font-size: 18px;
-//     line-height: 23px;
-//   }
-// }

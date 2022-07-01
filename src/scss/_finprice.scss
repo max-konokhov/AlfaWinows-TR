@@ -1,0 +1,107 @@
+.finprice {
+  padding-top: 32px;
+  padding-bottom: 60px;
+
+  &__header {
+    margin-bottom: 49px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__list-item {
+    display: flex;
+  }
+
+  &__list-item:not(:last-child) {
+    margin-bottom: 43px;
+  }
+
+  &__item-text {
+    display: flex;
+    margin: 25px 0;
+    padding: 20px 20px 20px 53px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: $color-white;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 2.4;
+  }
+
+  &__card-text-box {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__card-descr {
+
+    &--text {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__orange {
+    color: $color-orange;
+    font-weight: 700;
+  }
+
+  &__summ {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  &__card-link {
+    display: block;
+    padding: 15px 26px;
+    font-weight: 600;
+    color: $color-white;
+    background-color: $color-orange;
+    text-transform: uppercase;
+  }
+
+  &__scheme-list {
+    display: flex;
+    width: 59.1%;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background-color: $color-blue-two;
+  }
+}
+
+.sh-list {
+  row-gap: 15px;
+
+  &__item {
+    display: flex;
+    width: 49%;
+    min-height: 188px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  &__price-descr {
+    color: $color-white;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  &__summ {
+    font-weight: 700;
+  }
+
+  &__rubl {
+    font-family: $font-Rubl;
+    font-size: 18px;
+  }
+}
