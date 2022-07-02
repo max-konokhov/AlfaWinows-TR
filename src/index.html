@@ -8,8 +8,8 @@
   <link rel="preload" href="fonts/MuseoCyrl-Black.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/ALSRubl.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/main.min.css">
-  <script defer src="js/main.js"></script>
-  <title>Альфа Окна</title>
+  <!-- <script defer src="js/main.js"></script> -->
+  <title>ТЗ Альфа Окна</title>
 </head>
 
 <body>
@@ -22,17 +22,17 @@
           <ul class="finishing__list">
             <li class="finishing__list-item">
               <img class="finishing__image" src="img/inner_finishing.jpg" alt="Пример работы">
-              <h3 class="finishing__title card-title">Внутренняя отделка</h3>
+              <h2 class="finishing__title card-title">Внутренняя отделка</h2>
               <a href="#" class="finishing__link">Заказать</a>
             </li>
             <li class="finishing__list-item">
               <img class="finishing__image" src="img/wrap_finishing.jpg" alt="Пример работы">
-              <h3 class="finishing__title card-title">Внешняя отделка</h3>
+              <h2 class="finishing__title card-title">Внешняя отделка</h2>
               <a href="#" class="finishing__link">Заказать</a>
             </li>
             <li class="finishing__list-item">
               <img class="finishing__image" src="img/power_balcon.jpg" alt="Пример работы">
-              <h3 class="finishing__title card-title">Утепление балкона</h3>
+              <h2 class="finishing__title card-title">Утепление балкона</h2>
               <a href="#" class="finishing__link">Подробнее</a>
             </li>
           </ul>
@@ -164,6 +164,8 @@
                   name="name"
                   type="text"
                   placeholder="Имя"
+                  aria-label="Введите в поле ваше имя"
+                  autocomplete="off"
                   required
                 >
                 <div class="cons-form__input-box">
@@ -172,6 +174,8 @@
                     name="phone"
                     type="tel"
                     placeholder="Телефон"
+                    aria-label="Введите в поле ваш телефон"
+                    autocomplete="off"
                     required
                   >
                   <input
@@ -179,6 +183,8 @@
                     name="e-mail"
                     type="email"
                     placeholder="Email"
+                    aria-label="Введите в поле ваш адрес электронной почты"
+                    autocomplete="off"
                     required
                   >
                 </div>
@@ -187,15 +193,18 @@
                   name="product"
                   type="text"
                   placeholder="Интересующая услуга/продукт"
+                  aria-label="Укажите интересующуюю услугу или продукт"
+                  autocomplete="off"
                   required
                 >
                 <textarea
                   class="cons-form__input cons-form__input--message"
+                  aria-label="Поле для ввода комментария"
                   name="message">Комментарий</textarea>
                 <div class="cons-form__button-box">
                   <p class="cons-form__descr">Отправляя заявку я соглашаюсь с
                     политикой конфиденциальности</p>
-                  <button class="cons-form__btn-submit">Отправить</button>
+                  <button class="cons-form__btn-submit" aria-label="Отправить вашу заявку">Отправить</button>
                 </div>
               </form>
             </li>
@@ -521,7 +530,7 @@
                 </li>
                 <li class="sh-list__item">
                   <img src="img/E-2.png" alt="Каблук" class="sh-list__image sh-list__image--1">
-                  <p class="sh-list__price-descr">Каблук -<span class="sh-list__summ">62 500 <span class="sh-list__rubl">p</span></span></p>
+                  <p class="sh-list__price-descr">Каблук - <span class="sh-list__summ">62 500 <span class="sh-list__rubl">p</span></span></p>
                 </li>
                 <li class="sh-list__item">
                   <img src="img/E-3.png" alt="П-образный балкон" class="sh-list__image sh-list__image--1">
@@ -531,8 +540,6 @@
                   <img src="img/E-4.png" alt="Угловой балкон" class="sh-list__image sh-list__image--1">
                   <p class="sh-list__price-descr">Угловой балкон - <span class="sh-list__summ">44 500 <span class="sh-list__rubl">p</span></span></p>
                 </li>
-
-
               </ul>
             </li>
 
@@ -562,7 +569,7 @@
                 </li>
                 <li class="sh-list__item">
                   <img src="img/E-2.png" alt="Каблук" class="sh-list__image sh-list__image--1">
-                  <p class="sh-list__price-descr">Каблук -<span class="sh-list__summ">62 500 <span class="sh-list__rubl">p</span></span></p>
+                  <p class="sh-list__price-descr">Каблук - <span class="sh-list__summ">62 500 <span class="sh-list__rubl">p</span></span></p>
                 </li>
                 <li class="sh-list__item">
                   <img src="img/E-3.png" alt="П-образный балкон" class="sh-list__image sh-list__image--1">
@@ -572,8 +579,6 @@
                   <img src="img/E-4.png" alt="Угловой балкон" class="sh-list__image sh-list__image--1">
                   <p class="sh-list__price-descr">Угловой балкон - <span class="sh-list__summ">44 500 <span class="sh-list__rubl">p</span></span></p>
                 </li>
-
-
               </ul>
             </li>
 
@@ -603,7 +608,7 @@
                 </li>
                 <li class="sh-list__item">
                   <img src="img/E-2.png" alt="Каблук" class="sh-list__image sh-list__image--1">
-                  <p class="sh-list__price-descr">Каблук -<span class="sh-list__summ">62 500 <span class="sh-list__rubl">p</span></span></p>
+                  <p class="sh-list__price-descr">Каблук - <span class="sh-list__summ">62 500 <span class="sh-list__rubl">p</span></span></p>
                 </li>
                 <li class="sh-list__item">
                   <img src="img/E-3.png" alt="П-образный балкон" class="sh-list__image sh-list__image--1">
@@ -613,17 +618,13 @@
                   <img src="img/E-4.png" alt="Угловой балкон" class="sh-list__image sh-list__image--1">
                   <p class="sh-list__price-descr">Угловой балкон - <span class="sh-list__summ">44 500 <span class="sh-list__rubl">p</span></span></p>
                 </li>
-
-
               </ul>
             </li>
           </ul>
         </div>
       </section>
-
     </div>
   </main>
-
 </body>
 </html>
 

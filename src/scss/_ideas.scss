@@ -10,14 +10,9 @@
   &__list {
     display: flex;
     column-gap: 29px;
-    // justify-content: space-between;
     row-gap: 30px;
     flex-wrap: wrap;
   }
-
-  // &__list-item {
-  //   max-width: 370px;
-  // }
 
   &__image-box {
     position: relative;
@@ -75,6 +70,84 @@
     &--gard {
       padding-left: 17px;
       padding-right: 17px;
+    }
+  }
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .ideas {
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    &__list {
+      padding-left: 10%;
+      padding-right: 10%;
+      justify-content: space-evenly;
+      column-gap: 25px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .ideas {
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    &__header {
+      margin-bottom: 30px;
+    }
+
+    &__list {
+      padding-left: 0;
+      padding-right: 0;
+      column-gap: 25px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .ideas {
+    padding-bottom: 35px;
+
+    &__header {
+      margin-bottom: 30px;
+    }
+
+    &__list {
+      row-gap: 25px;
+    }
+
+    &__link {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .ideas {
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+    &__header {
+      margin-bottom: 20px;
+    }
+
+    &__list {
+      row-gap: 15px;
+    }
+
+    &__link {
+      padding: 15px 30px;
+    }
+
+    &__title {
+      padding: 16px 10px;
+      font-size: 16px;
+      line-height: 20px;
     }
   }
 }
